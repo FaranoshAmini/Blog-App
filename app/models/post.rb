@@ -5,8 +5,8 @@ class Post < ApplicationRecord
   after_save :post_counter_update
 
   def post_counter_update
-    User.find_by_id(self.author_id).increment!(:posts_counter)
-  end 
+    User.find_by_id(author_id).increment!(:posts_counter)
+  end
 
   def recent_comments
     Comment.where(post: self).order(updated_at: :desc).limit(5)
