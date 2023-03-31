@@ -35,11 +35,26 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://rails.com/">Rails</a></li>
+  </ul>
+</details>
+
+<details>
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[Add posts]**
+- **[Add comments]**
+- **[Add Likes]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -49,7 +64,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- Coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,11 +107,6 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 
-### Deployment
-
-You can deploy this project using:
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -114,6 +124,16 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Users ables to like posts]**
+- [ ] **[Users ables to comment posts]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
