@@ -58,21 +58,9 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- Coming soon
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -94,7 +82,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 >  cd my-project
-  gem install
+  bundle install
 
 ### Usage
 
@@ -105,15 +93,13 @@ To run the project, execute the following command:
 ### Run tests
 
 To run tests, run the following command:
-
+> rspec spec
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Author <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Faranosh Amini**
 
@@ -127,8 +113,6 @@ To run tests, run the following command:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Users ables to like posts]**
 - [ ] **[Users ables to comment posts]**
@@ -149,9 +133,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project don't forget to give star to my project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,9 +141,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Microverse for give me this opportunity to work on this rails project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
