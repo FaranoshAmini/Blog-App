@@ -72,6 +72,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 >  cd my-folder
+
 >  git clone https://github.com/FaranoshAmini/Blog-App.git
 
 ### Install
@@ -79,6 +80,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 >  cd Blog-App
+
 >  bundle install
 
 ### Usage
