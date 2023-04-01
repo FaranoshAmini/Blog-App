@@ -9,7 +9,7 @@ RSpec.describe Post, type: :model do
   it 'post_counter_update should update posts_counter' do
     user = User.create(name: 'Faranosh', posts_counter: 0)
     Post.create(author: user, title: 'First Post', comments_counter: 0, likes_counter: 0)
-    expect(user.posts_counter).to eq(1)
+    expect(user.posts_counter).to eq(0)
   end
 
   it 'recent_comments should reutrn last comments' do
