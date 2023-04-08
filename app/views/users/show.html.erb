@@ -1,6 +1,20 @@
-<h1>User post</h1>
-<% @posts.each do |post| %>
-  <p># <%= post.id %>
-  <p><%= post.text %></p>
-  <p>Comments: <%= post.comments_counter %> Likes: <%= post.likes_counter %></p>
+<div class="container">
+<div class="image">Images</div>
+<div class="card">
+<h1 class="header"><%=@user.name%></h1>
+<p class="footer">Number of posts: <%=@user.posts_counter %></p>
+</div>
+<div class="bio">
+<p>Bio:</p>
+<p><%=@user.bio%></p>
+</div>
+<% @user.recent_posts.each do |post| %>
+<div class="post">
+<p><%=post.title %></p>
+<p><%=post.text %></p>
+<p class="footer">Comments: <%=post.comments_counter %>,
+Likes: <%=post.likes_counter %></p>
+</div>
 <% end %>
+<button class="btn"><a href="/users/<%=@user.id %>/posts">See all posts</a></button>
+</div> 
