@@ -1,6 +1,6 @@
 <div class="container">
 <div>
-<div class="image">Images</div>
+<div class="image"><img src="<%= user.photo%>" alt="<%= user.name%>"></div>
 <div class="card">
 <h1 class="header"><%=@user.name%></h1>
 <p class="footer">Number of posts: <%=@user.posts_counter %></p>
@@ -12,7 +12,7 @@
 </div>
 <% @user.recent_posts.each do |post| %>
 <div class="post">
-<p><%=post.title %></p>
+<p><%= link_to post.title, user_post_path(post) %></p>
 <p><%=post.text %></p>
 <p class="footer">Comments: <%=post.comments_counter %>,
 Likes: <%=post.likes_counter %></p>
