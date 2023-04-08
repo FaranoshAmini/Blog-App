@@ -1,0 +1,6 @@
+<h1>User post</h1>
+<% @posts.each do |post| %>
+  <p># <%= post.id %>
+  <p><%= post.text %></p>
+  <p>Comments: <%= post.comments_counter %> Likes: <%= post.likes_counter %></p>
+<% end %>

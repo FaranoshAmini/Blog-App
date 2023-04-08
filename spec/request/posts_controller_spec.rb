@@ -14,7 +14,7 @@ RSpec.describe 'PostsController', type: :request do
 
     it 'The response body should be correct placeholder text' do
       get '/users/:user_id/posts'
-      expect(response.body).to include('This is the index action of PostsController')
+      expect(response.body).to include('This is the index action for post controller')
     end
 
     it 'The status should be okay' do
@@ -29,7 +29,7 @@ RSpec.describe 'PostsController', type: :request do
 
     it 'The response body should be correct placeholder text' do
       get '/users/:user_id/posts/:id'
-      expect(response.body).to include('This is the show action of PostsController')
+      expect(response.body).to include('This is the show action for post controller')
     end
   end
 end
