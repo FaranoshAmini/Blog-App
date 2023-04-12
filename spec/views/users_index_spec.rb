@@ -20,5 +20,3 @@ RSpec.describe 'Users index view', type: :system do
     end
   end
 end
-
-
