@@ -9,7 +9,7 @@ RSpec.describe 'user/#index', type: :feature do
   end
   describe 'users show view' do
     it 'should show user profile picture' do
-      expect(page).to have_content('Images')
+      expect(page.body).to include(@user.photo)
     end
     it 'should show user username' do
       expect(page).to have_content(@user.name)

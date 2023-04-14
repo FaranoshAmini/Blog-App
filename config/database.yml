@@ -23,8 +23,9 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: Blog-App
-
+  database: BlogApp-test
+  username: postgres
+  password: 123456
 production:
   <<: *default
   database: Blog-App
