@@ -75,5 +75,9 @@ RSpec.describe '#UserIndex', type: :feature do
     it 'should include a section for paginations' do
       expect(page).to have_content('Pagination')
     end
+    it 'redirects to the posts show page when I click on a post' do
+      click_link 'See all posts'
+      expect(current_path).to match user_posts_path(@first_user)
+    end
   end
 end
